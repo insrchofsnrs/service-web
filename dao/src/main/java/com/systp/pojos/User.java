@@ -1,4 +1,4 @@
-package com.systp.entities;
+package com.systp.pojos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

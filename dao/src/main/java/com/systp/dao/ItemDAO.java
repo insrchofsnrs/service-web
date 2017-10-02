@@ -1,6 +1,8 @@
 package com.systp.dao;
 
-import by.it.entities.Item;
+
+
+import com.systp.pojos.Item;
 
 import java.sql.SQLException;
 import java.util.List;

@@ -1,11 +1,10 @@
-package com.systp.entities;
+package com.systp.pojos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
-import java.util.Date;
 
 /**
  * Created by Smile on 16.08.2017.

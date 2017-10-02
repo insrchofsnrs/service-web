@@ -1,10 +1,7 @@
-package com.systp.entities;
+package com.systp.pojos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-
-
-import java.util.Date;
 
 /**
  * Created by Evgeni on 09.08.17.

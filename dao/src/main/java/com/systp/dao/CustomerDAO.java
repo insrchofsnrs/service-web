@@ -1,6 +1,8 @@
 package com.systp.dao;
 
-import by.it.entities.Customer;
+
+
+import com.systp.pojos.Customer;
 
 import java.sql.SQLException;
 import java.util.List;
