@@ -1,7 +1,8 @@
-package by.it.dao.impl;
+package com.systp.dao.impl;
 
 import by.it.dao.CustomerDAO;
 import by.it.entities.Customer;
+import com.systp.dao.impl.AbstractDao;
 
 import java.io.Serializable;
 import java.sql.PreparedStatement;

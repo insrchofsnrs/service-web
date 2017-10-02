@@ -1,10 +1,13 @@
-package by.it.dao.impl;
+package com.systp.dao.impl;
 import by.it.dao.UserDAO;
 import by.it.entities.User;
+import com.systp.dao.impl.AbstractDao;
+
 import java.io.Serializable;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
 
 /**
  * Created by Evgeni on 25.08.17.

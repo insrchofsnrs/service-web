@@ -1,9 +1,10 @@
-package by.it.dao.impl;
+package com.systp.dao.impl;
 
 import by.it.bd.DBConnectManager;
 import by.it.bd.DBExceptionManager;
 import by.it.dao.ItemDAO;
 import by.it.entities.Item;
+import com.systp.dao.impl.AbstractDao;
 
 import java.io.Serializable;
 import java.sql.*;

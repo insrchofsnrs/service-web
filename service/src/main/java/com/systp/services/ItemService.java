@@ -1,4 +1,4 @@
-package by.it.services;
+package com.systp.services;
 
 import by.it.entities.Item;
 

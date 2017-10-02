@@ -1,8 +1,10 @@
-package by.it.entities;
+package com.systp.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
+import javax.persistence.Entity;
 import java.util.Date;
 
 /**
@@ -10,6 +12,8 @@ import java.util.Date;
         */
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
+@Entity
 public class Customer {
     private long id;
     private String organization;
@@ -21,7 +25,7 @@ public class Customer {
     private String email;
     private String position;
    // private Date date;
-    public Customer(){}
+
 
 
 }

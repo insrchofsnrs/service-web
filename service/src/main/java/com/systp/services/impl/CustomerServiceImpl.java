@@ -1,4 +1,4 @@
-package by.it.services.impl;
+package com.systp.services.impl;
 
 
 import by.it.dao.CustomerDAO;

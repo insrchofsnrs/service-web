@@ -1,4 +1,4 @@
-package by.it.entities;
+package com.systp.entities;
 
 /**
  * Created by Smile on 17.08.2017.

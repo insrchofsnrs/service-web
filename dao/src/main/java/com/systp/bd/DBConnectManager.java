@@ -1,9 +1,6 @@
-package by.it.bd;
+package com.systp.bd;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.util.ResourceBundle;
 
 /**
  * Created by Evgeni on 09.08.17.

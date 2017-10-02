@@ -1,4 +1,4 @@
-package by.it.dao.impl;
+package com.systp.dao.impl;
 
 import by.it.bd.DBConnectManager;
 

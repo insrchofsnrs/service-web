@@ -1,6 +1,6 @@
-package by.it.services;
+package com.systp.services;
 
-import by.it.entities.Customer;
+
 
 import java.io.Serializable;
 import java.util.List;

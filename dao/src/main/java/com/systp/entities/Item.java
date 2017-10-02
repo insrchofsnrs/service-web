@@ -1,4 +1,4 @@
-package by.it.entities;
+package com.systp.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

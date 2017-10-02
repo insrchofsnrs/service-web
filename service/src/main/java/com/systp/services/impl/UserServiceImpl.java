@@ -1,10 +1,11 @@
-package by.it.services.impl;
+package com.systp.services.impl;
 
 import by.it.dao.UserDAO;
 import by.it.dao.impl.UserDAOImpl;
 import by.it.entities.User;
 import by.it.services.ServiceException;
 import by.it.services.UserService;
+import com.systp.services.impl.AbstractService;
 
 import java.sql.SQLException;
 

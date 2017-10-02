@@ -1,4 +1,4 @@
-package by.it.bd;
+package com.systp.bd;
 
 /**
  * Created by Evgeni on 09.08.17.

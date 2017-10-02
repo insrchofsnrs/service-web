@@ -1,4 +1,4 @@
-package by.it.services;
+package com.systp.services;
 
 /**
  * Created by Evgeni on 25.08.17.

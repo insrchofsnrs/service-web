@@ -1,10 +1,11 @@
-package by.it.services.impl;
+package com.systp.services.impl;
 
 import by.it.dao.ItemDAO;
 import by.it.dao.impl.ItemDAOImpl;
 import by.it.entities.Item;
 import by.it.services.ItemService;
 import by.it.services.ServiceException;
+import com.systp.services.impl.AbstractService;
 
 import java.io.Serializable;
 import java.sql.SQLException;
