@@ -16,6 +16,7 @@
   </properties>
 
   <dependencies>
+
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-entitymanager</artifactId>
@@ -31,6 +32,14 @@
       <artifactId>lombok</artifactId>
       <version>1.16.18</version>
     </dependency>
+
+    <dependency>
+      <groupId>javax</groupId>
+      <artifactId>javaee-api</artifactId>
+      <version>8.0</version>
+      <scope>provided</scope>
+    </dependency>
+
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
@@ -38,7 +47,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.cobehaus.mojo</groupId>
+      <groupId>org.codehaus.mojo</groupId>
       <artifactId>cobertura-maven-plugin</artifactId>
       <version>2.7</version>
     </dependency>
@@ -47,7 +56,7 @@
 <reporting>
   <plugins>
     <plugin>
-      <groupId>org.cobehaus.mojo</groupId>
+      <groupId>org.codehaus.mojo</groupId>
       <artifactId>cobertura-maven-plugin</artifactId>
       <version>2.7</version>
     </plugin>
@@ -62,6 +71,7 @@
   </modules>
 
   <build>
+    <finalName>service-web</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -88,6 +98,16 @@
       </plugin>
 
       <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.7.0</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+
+
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
         <version>2.3</version>
@@ -100,7 +120,7 @@
             </goals>
             <configuration>
               <outputDirectory>${project.build.directory}</outputDirectory>
-              <includeEmtyDirectory>true</includeEmtyDirectory>
+              <includeEmptyDirs>true</includeEmptyDirs>
               <encoding>UTF-8</encoding>
             </configuration>
           </execution>

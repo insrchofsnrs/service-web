@@ -20,7 +20,19 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>com.systp</groupId>
+      <artifactId>dao</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.systp</groupId>
+      <artifactId>service</artifactId>
+      <version>1.0</version>
+    </dependency>
   </dependencies>
+
   <build>
     <finalName>web</finalName>
   </build>
